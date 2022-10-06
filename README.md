@@ -11,16 +11,38 @@ in NeruIPS 2022
 
 ![image](https://user-images.githubusercontent.com/13496612/192178762-66e28752-de5e-4707-9634-a310ced9f0ff.png)
 
-## TL;DR quickstart
-TODO
-
 ## Features
-- [ ] Inference with human, animal face image
-- [ ] Training code
-- [ ] Experiment code
+- [x] Inference for single image
+- [ ] Training
+- [ ] Experiment
 
 ## Setup
-TODO
+
+### Docker
+
+- Build image
+
+```
+$ cd docker
+$ docker build -t dife .
+$ cd ..
+```
+
+- Run docker container and access
+
+```
+$ docker run -ti -d --gpus=all --name=dife -v .:/workspace --ipc=host dife
+$ docker exec -ti dife /bin/bash
+# (Do something)
+```
+
+### Demo
+
+```
+# python download.py --domain human+dog
+# python inference.py --image_path demo/human_000001.png
+# python inference.py --image_path demo/dog_000001.png
+```
 
 ## Citation
 ```
