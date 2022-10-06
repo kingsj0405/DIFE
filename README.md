@@ -44,6 +44,8 @@ $ docker exec -ti dife /bin/bash
 # python inference.py --image_path demo/dog_000001.png
 ```
 
+![image](https://user-images.githubusercontent.com/13496612/194290085-3a5b4112-c805-4c5a-afa6-71cc557ff53b.png)
+
 ## Citation
 ```
 @inproceedings{yang2022dife,
