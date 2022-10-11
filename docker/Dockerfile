@@ -13,6 +13,7 @@ ENV PYTHONUNBUFFERED 1
 
 RUN pip install imageio imageio-ffmpeg==0.4.4 pyspng==0.1.0
 RUN pip install wandb
+RUN pip install -r requirements.txt
 RUN apt-get update
 RUN apt-get install -y tmux git vim htop
 
