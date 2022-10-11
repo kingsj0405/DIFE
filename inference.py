@@ -1,6 +1,6 @@
 from pathlib import Path
 
-import fire
+import click
 import torch
 import torch.nn.functional as F
 import torchvision.transforms as T
@@ -26,6 +26,9 @@ def center_crop(
     return img_crop
 
 
+@click.command()
+@click.option('--resume_path', default='checkpoints/human+dog.pth')
+@click.option('--image_path', default='demo/human_000001.png')
 def main(
     # Network
     dife_dim=16,
@@ -71,4 +74,4 @@ def main(
 
 
 if __name__ == '__main__':
-    fire.Fire(main)
+    main()
