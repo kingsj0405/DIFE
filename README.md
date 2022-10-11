@@ -1,5 +1,5 @@
 # Dense Interspecies Face Embedding (DIFE)
-### [Project Page](https://yangspace.co.kr/dife/) | Video | Demo-Colab | Demo-StreamIt | Paper | Data | 
+### [Project Page](https://yangspace.co.kr/dife/) | Demo-StreamIt | Paper |
 An official PyTorch implementation of the paper "Dense Interspecies Face Embedding".<br><br>
 [Dense Interspecies Face Embedding](https://yangspace.co.kr/dife/)<br>
   [Sejong Yang](https://yangspace.co.kr)<sup>1</sup>,
@@ -15,6 +15,9 @@ in NeruIPS 2022
 - [x] Inference for single image
 - [ ] Training
 - [ ] Experiment
+  - [ ] Interspecies keypoint transfer
+  - [ ] Interspecies face parsing
+- [ ] Demo with streamlit
 
 ## Setup
 
@@ -36,10 +39,22 @@ $ docker exec -ti dife /bin/bash
 # (Do something)
 ```
 
-### Demo
+### Pre-trained model
 
 ```
-# python download.py --domain human+dog
+# python download.py --key model-human+dog
+```
+
+### Test data
+
+```
+# python download.py --
+```
+
+## Usage
+
+### Inference for single image
+```
 # python inference.py --image_path demo/human_000001.png
 # python inference.py --image_path demo/dog_000001.png
 ```
@@ -55,3 +70,8 @@ $ docker exec -ti dife /bin/bash
   booktitle={ECCV},
 }
 ```
+
+## Reference
+- [jamt9000/DVE](https://github.com/jamt9000/DVE)
+- [facebookresearch/detectron2/projects/DensePose](https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose)
+- [warmspringwinds/segmentation_in_style](https://github.com/warmspringwinds/segmentation_in_style)
