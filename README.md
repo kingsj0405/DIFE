@@ -1,5 +1,5 @@
 # Dense Interspecies Face Embedding (DIFE)
-### [Project Page](https://yangspace.co.kr/dife/) | Demo-StreamIt | Paper |
+### [Project Page](https://yangspace.co.kr/dife/) | [Paper](https://openreview.net/forum?id=m67FNFdgLO9) | [Poster](https://yangspace.co.kr/dife/img/dife_poster.png) | Colab(Coming Soon)
 An official PyTorch implementation of the paper "Dense Interspecies Face Embedding".<br><br>
 [Dense Interspecies Face Embedding](https://yangspace.co.kr/dife/)<br>
   [Sejong Yang](https://yangspace.co.kr)<sup>1</sup>,
