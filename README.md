@@ -66,8 +66,8 @@ $ docker exec -ti dife /bin/bash
 @inproceedings{yang2022dife,
   title={Dense Interspecies Face Embedding},
   author={Sejong Yang and Subin Jeon and Seonghyeon Nam and Seon Joo Kim},
-  year={2020},
-  booktitle={ECCV},
+  year={2022},
+  booktitle={NeruIPS},
 }
 ```
 
