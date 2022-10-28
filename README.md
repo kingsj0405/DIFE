@@ -1,4 +1,6 @@
 # Dense Interspecies Face Embedding (DIFE)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dense-interspecies-face-embedding/interspecies-facial-keypoint-transfer-on-mafl)](https://paperswithcode.com/sota/interspecies-facial-keypoint-transfer-on-mafl?p=dense-interspecies-face-embedding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dense-interspecies-face-embedding/interspecies-facial-keypoint-transfer-on-wflw)](https://paperswithcode.com/sota/interspecies-facial-keypoint-transfer-on-wflw?p=dense-interspecies-face-embedding)
 ### [Project Page](https://yangspace.co.kr/dife/) | [Paper](https://openreview.net/forum?id=m67FNFdgLO9) | [Poster](https://yangspace.co.kr/dife/img/dife_poster.png) | Colab(Coming Soon)
 An official PyTorch implementation of the paper "Dense Interspecies Face Embedding".<br><br>
 [Dense Interspecies Face Embedding](https://yangspace.co.kr/dife/)<br>
