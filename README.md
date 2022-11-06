@@ -1,5 +1,7 @@
 # Dense Interspecies Face Embedding (DIFE)
-### [Project Page](https://yangspace.co.kr/dife/) | Demo-StreamIt | Paper |
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dense-interspecies-face-embedding/interspecies-facial-keypoint-transfer-on-mafl)](https://paperswithcode.com/sota/interspecies-facial-keypoint-transfer-on-mafl?p=dense-interspecies-face-embedding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dense-interspecies-face-embedding/interspecies-facial-keypoint-transfer-on-wflw)](https://paperswithcode.com/sota/interspecies-facial-keypoint-transfer-on-wflw?p=dense-interspecies-face-embedding)
+### [Project Page](https://yangspace.co.kr/dife/) | [Paper](https://openreview.net/forum?id=m67FNFdgLO9) | [Poster](https://yangspace.co.kr/dife/img/dife_poster.png) | Colab(Coming Soon)
 An official PyTorch implementation of the paper "Dense Interspecies Face Embedding".<br><br>
 [Dense Interspecies Face Embedding](https://yangspace.co.kr/dife/)<br>
   [Sejong Yang](https://yangspace.co.kr)<sup>1</sup>,
@@ -7,7 +9,7 @@ An official PyTorch implementation of the paper "Dense Interspecies Face Embeddi
   [Seonghyeon Nam](https://shnnam.github.io/)<sup>2</sup>,
   [Seon Joo Kim](https://sites.google.com/site/seonjookim/)<sup>1</sup> <br>
   <sup>1</sup>Yonsei University, <sup>2</sup>York University <br>
-in NeruIPS 2022
+in NeurIPS 2022
 
 ![image](https://user-images.githubusercontent.com/13496612/192178762-66e28752-de5e-4707-9634-a310ced9f0ff.png)
 
@@ -66,8 +68,8 @@ $ docker exec -ti dife /bin/bash
 @inproceedings{yang2022dife,
   title={Dense Interspecies Face Embedding},
   author={Sejong Yang and Subin Jeon and Seonghyeon Nam and Seon Joo Kim},
-  year={2020},
-  booktitle={ECCV},
+  year={2022},
+  booktitle={NeurIPS},
 }
 ```
 
