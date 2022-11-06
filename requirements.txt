@@ -1,2 +1,5 @@
 click
 gdown
+easydict
+pandas
+ipdb

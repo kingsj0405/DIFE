@@ -7,7 +7,7 @@ import torchvision.transforms as T
 from PIL import Image
 
 from networks.dife import DIFE
-from visualizer import GridVisualizer
+from utils.visualizer import GridVisualizer
 
 
 def center_crop(
